@@ -10,10 +10,11 @@ pub fn is_prime(num:u32)->bool{
 pub fn list_primes(n:u32){
     let mut i = 0;
     let mut num = 1;
+    let mut arr:Vec<u32>= vec![];
     while i < n{
         if is_prime(num){
             i+=1;
-            println!("{}",num);
+            arr2.push(num);
         }
         num+=1;
     }
