@@ -14,7 +14,7 @@ pub fn list_primes(n:u32){
     while i < n{
         if is_prime(num){
             i+=1;
-            arr2.push(num);
+            arr.push(num);
         }
         num+=1;
     }
