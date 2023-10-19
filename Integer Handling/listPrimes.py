@@ -7,10 +7,10 @@ def is_prime(num):
 def list_primes(n):
     i = 0
     num = 1
+    arr = []
     while i < n:
         if is_prime(num):
             i+=1
-            print(num)
+            arr.append(num)
         num+=1
-
-list_primes(50)
+    return arr
